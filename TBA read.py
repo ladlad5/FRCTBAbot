@@ -18,5 +18,3 @@ def getTeamInfo(teamNumber): #gives short summary of a team TODO: maybe make for
         if(information[x] != None):
             teamSummary = teamSummary + [x + ': ' + str(information[x])]
     return teamSummary
-
-print(getTeamInfo("frc2877"))
